@@ -15,76 +15,31 @@
         <nav>
             <a href="index.html">Project Description</a>
             <a href="story.html">The Story</a>
-            <a href="gameplay.html" class="active">Gameplay Showcases</a>
+            <a href="gameplay.html" class="active">Gameplay Showcase</a>
         </nav>
     </header>
 
     <div class="container">
-        <h2>Gameplay Showcases</h2>
-        <p>Below are highlights from the game, including mechanics, the upgrade system, and boss encounters.</p>
+        <h2>Boss Battle: The Guardian</h2>
+        <p>After fighting through the dungeon and surviving the rift, the player faces the ultimate challenge. This video showcases the state-machine AI, bullet-hell patterns, and the reactive dash-and-burst mechanic.</p>
 
         <div class="showcase-item">
-            <div class="showcase-text">
-                <h3>1. Dungeon Crawling</h3>
-                <p>Exploring the initial dungeon, utilizing the 360-degree cursor aiming, and fighting off small enemy waves.</p>
-            </div>
             <div class="media-placeholder">
-                <video controls width="100%">
-                    <source src="assets/dungeon_crawl.mp4" type="video/mp4">
+                <video controls width="100%" autoplay muted loop>
+                    <source src="assets/boss_showcase.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-        </div>
-
-        <div class="showcase-item">
-            <div class="showcase-text">
-                <h3>2. Meeting Jonesy (Upgrades)</h3>
-                <p>Interacting with Jonesy in the safe room to purchase armor upgrades and new projectile types.</p>
-            </div>
-            <div class="media-placeholder">
-                <img src="assets/jonesy_encounter.png" alt="Meeting Jonesy for upgrades" style="max-width: 100%; border-radius: 8px;">
-            </div>
-        </div>
-
-        <div class="showcase-item">
-            <div class="showcase-text">
-                <h3>3. The Miniboss Fight & Teleportation</h3>
-                <p>Defeating the dungeon gatekeeper and getting sucked into the boss rift.</p>
-            </div>
-            <div class="media-placeholder">
-                <video controls width="100%">
-                    <source src="assets/miniboss_fight.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="showcase-text" style="margin-top: 20px;">
+                <h3>Mechanics Displayed:</h3>
+                <ul>
+                    <li><strong>Spiral Attack:</strong> Precise projectile spacing for tight dodging.</li>
+                    <li><strong>Telegraphed Dash:</strong> A red flash warning before a high-speed charge.</li>
+                    <li><strong>Wall Burst:</strong> A 360-degree projectile fallback if the boss misses the player.</li>
+                    <li><strong>Dynamic UI:</strong> Real-time Boss HP bar and Player stamina management.</li>
+                </ul>
             </div>
         </div>
-
-        <div class="showcase-item">
-            <div class="showcase-text">
-                <h3>4. The Guardian: Bullet Hell Phase</h3>
-                <p>Dodging The Guardian's deadly spiral and spread-shot patterns using stamina-dashing.</p>
-            </div>
-            <div class="media-placeholder">
-                <video controls width="100%">
-                    <source src="assets/guardian_bullethell.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-
-        <div class="showcase-item">
-            <div class="showcase-text">
-                <h3>5. The Guardian: Dash & Wall Burst</h3>
-                <p>The Guardian locks onto the player's position and dashes. Missing the player triggers a massive 360-degree projectile burst upon hitting the wall.</p>
-            </div>
-            <div class="media-placeholder">
-                <video controls width="100%">
-                    <source src="assets/guardian_dash.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-
     </div>
 
     <footer>
